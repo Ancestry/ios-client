@@ -1,0 +1,1089 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		227C8E65209CA64600B1491C /* Split.h in Headers */ = {isa = PBXBuildFile; fileRef = 227C8E63209CA64600B1491C /* Split.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		227C8EFF209CA68E00B1491C /* SplitEventTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8E6C209CA68D00B1491C /* SplitEventTask.swift */; };
+		227C8F00209CA68E00B1491C /* SplitInternalEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8E6D209CA68D00B1491C /* SplitInternalEvent.swift */; };
+		227C8F01209CA68E00B1491C /* SplitEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8E6E209CA68D00B1491C /* SplitEvent.swift */; };
+		227C8F02209CA68E00B1491C /* SplitEventExecutorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8E70209CA68D00B1491C /* SplitEventExecutorProtocol.swift */; };
+		227C8F03209CA68E00B1491C /* SplitEventExecutorResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8E71209CA68D00B1491C /* SplitEventExecutorResources.swift */; };
+		227C8F04209CA68E00B1491C /* SplitEventExecutorWithClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8E72209CA68D00B1491C /* SplitEventExecutorWithClient.swift */; };
+		227C8F05209CA68E00B1491C /* SplitEventExecutorFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8E73209CA68D00B1491C /* SplitEventExecutorFactory.swift */; };
+		227C8F06209CA68E00B1491C /* SplitEventsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8E74209CA68D00B1491C /* SplitEventsManager.swift */; };
+		227C8F07209CA68E00B1491C /* .gitkeep in Resources */ = {isa = PBXBuildFile; fileRef = 227C8E76209CA68D00B1491C /* .gitkeep */; };
+		227C8F08209CA68E00B1491C /* MySegmentsChangeFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8E77209CA68D00B1491C /* MySegmentsChangeFetcher.swift */; };
+		227C8F09209CA68E00B1491C /* SplitClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8E78209CA68D00B1491C /* SplitClient.swift */; };
+		227C8F0A209CA68E00B1491C /* SplitClientConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8E79209CA68D00B1491C /* SplitClientConfig.swift */; };
+		227C8F0B209CA68E00B1491C /* SynchronizedArrayQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8E7B209CA68D00B1491C /* SynchronizedArrayQueue.swift */; };
+		227C8F0C209CA68E00B1491C /* HttpMySegmentsFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8E7C209CA68D00B1491C /* HttpMySegmentsFetcher.swift */; };
+		227C8F0D209CA68E00B1491C /* SplitClientProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8E7D209CA68D00B1491C /* SplitClientProtocol.swift */; };
+		227C8F0E209CA68E00B1491C /* RestClientConfiguration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8E81209CA68D00B1491C /* RestClientConfiguration.swift */; };
+		227C8F0F209CA68E00B1491C /* RestClient+MySegments.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8E83209CA68D00B1491C /* RestClient+MySegments.swift */; };
+		227C8F10209CA68E00B1491C /* RestClient+SplitChanges.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8E84209CA68D00B1491C /* RestClient+SplitChanges.swift */; };
+		227C8F11209CA68E00B1491C /* Target.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8E86209CA68D00B1491C /* Target.swift */; };
+		227C8F12209CA68E00B1491C /* EnvironmentTargetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8E87209CA68D00B1491C /* EnvironmentTargetManager.swift */; };
+		227C8F13209CA68E00B1491C /* DynamicTarget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8E88209CA68D00B1491C /* DynamicTarget.swift */; };
+		227C8F14209CA68E00B1491C /* DataRequest+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8E8A209CA68D00B1491C /* DataRequest+Extensions.swift */; };
+		227C8F15209CA68E00B1491C /* SessionManager+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8E8B209CA68D00B1491C /* SessionManager+Extensions.swift */; };
+		227C8F16209CA68E00B1491C /* DataResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8E8D209CA68D00B1491C /* DataResult.swift */; };
+		227C8F17209CA68E00B1491C /* RestClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8E8E209CA68D00B1491C /* RestClient.swift */; };
+		227C8F18209CA68E00B1491C /* ErrorCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8E90209CA68D00B1491C /* ErrorCode.swift */; };
+		227C8F19209CA68E00B1491C /* RestClientRequestProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8E92209CA68D00B1491C /* RestClientRequestProtocol.swift */; };
+		227C8F1A209CA68E00B1491C /* RestClientManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8E93209CA68D00B1491C /* RestClientManagerProtocol.swift */; };
+		227C8F1B209CA68E00B1491C /* InfoUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8E95209CA68D00B1491C /* InfoUtils.swift */; };
+		227C8F1C209CA68E00B1491C /* SplitPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8E97209CA68D00B1491C /* SplitPersistence.swift */; };
+		227C8F1D209CA68E00B1491C /* PlistSplitPersistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8E98209CA68D00B1491C /* PlistSplitPersistence.swift */; };
+		227C8F1E209CA68E00B1491C /* SplitFactoryProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8E99209CA68D00B1491C /* SplitFactoryProtocol.swift */; };
+		227C8F1F209CA68E00B1491C /* Logger.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8E9A209CA68D00B1491C /* Logger.swift */; };
+		227C8F20209CA68E00B1491C /* InMemoryMySegmentsCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8E9D209CA68D00B1491C /* InMemoryMySegmentsCache.swift */; };
+		227C8F21209CA68E00B1491C /* SplitChangeCacheProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8E9E209CA68D00B1491C /* SplitChangeCacheProtocol.swift */; };
+		227C8F22209CA68E00B1491C /* SplitChangeCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8E9F209CA68D00B1491C /* SplitChangeCache.swift */; };
+		227C8F23209CA68E00B1491C /* InMemorySplitCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EA0209CA68D00B1491C /* InMemorySplitCache.swift */; };
+		227C8F24209CA68E00B1491C /* SplitCacheProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EA1209CA68D00B1491C /* SplitCacheProtocol.swift */; };
+		227C8F25209CA68E00B1491C /* MySegmentsCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EA2209CA68D00B1491C /* MySegmentsCache.swift */; };
+		227C8F26209CA68E00B1491C /* SplitCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EA3209CA68D00B1491C /* SplitCache.swift */; };
+		227C8F27209CA68E00B1491C /* MySegmentsCacheProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EA4209CA68D00B1491C /* MySegmentsCacheProtocol.swift */; };
+		227C8F28209CA68E00B1491C /* SplitFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EA6209CA68D00B1491C /* SplitFetcher.swift */; };
+		227C8F29209CA68E00B1491C /* ParsedSplit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EA7209CA68D00B1491C /* ParsedSplit.swift */; };
+		227C8F2A209CA68E00B1491C /* RefreshableMySegmentsFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EA8209CA68D00B1491C /* RefreshableMySegmentsFetcher.swift */; };
+		227C8F2B209CA68E00B1491C /* MySegmentsFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EA9209CA68D00B1491C /* MySegmentsFetcher.swift */; };
+		227C8F2C209CA68E00B1491C /* RefreshableSplitFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EAA209CA68D00B1491C /* RefreshableSplitFetcher.swift */; };
+		227C8F2D209CA68E00B1491C /* SplitFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EAB209CA68D00B1491C /* SplitFactory.swift */; };
+		227C8F2E209CA68E00B1491C /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EAC209CA68D00B1491C /* Version.swift */; };
+		227C8F2F209CA68E00B1491C /* WhitelistMatcherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EAF209CA68D00B1491C /* WhitelistMatcherData.swift */; };
+		227C8F30209CA68E00B1491C /* DependencyMatcherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EB0209CA68D00B1491C /* DependencyMatcherData.swift */; };
+		227C8F31209CA68E00B1491C /* UnaryNumericMatcherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EB1209CA68D00B1491C /* UnaryNumericMatcherData.swift */; };
+		227C8F32209CA68E00B1491C /* MatcherGroup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EB2209CA68D00B1491C /* MatcherGroup.swift */; };
+		227C8F33209CA68E00B1491C /* Treatment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EB3209CA68D00B1491C /* Treatment.swift */; };
+		227C8F34209CA68E00B1491C /* Condition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EB4209CA68D00B1491C /* Condition.swift */; };
+		227C8F35209CA68E00B1491C /* MatcherProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EB5209CA68D00B1491C /* MatcherProtocol.swift */; };
+		227C8F36209CA68E00B1491C /* DataType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EB6209CA68D00B1491C /* DataType.swift */; };
+		227C8F37209CA68E00B1491C /* ConditionType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EB7209CA68D00B1491C /* ConditionType.swift */; };
+		227C8F38209CA68E00B1491C /* Matcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EB8209CA68D00B1491C /* Matcher.swift */; };
+		227C8F39209CA68E00B1491C /* MatcherType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EB9209CA68D00B1491C /* MatcherType.swift */; };
+		227C8F3A209CA68E00B1491C /* Split.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EBB209CA68D00B1491C /* Split.swift */; };
+		227C8F3B209CA68E00B1491C /* SplitChange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EBC209CA68D00B1491C /* SplitChange.swift */; };
+		227C8F3C209CA68E00B1491C /* SplitBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EBD209CA68D00B1491C /* SplitBase.swift */; };
+		227C8F3D209CA68E00B1491C /* Key.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EBE209CA68D00B1491C /* Key.swift */; };
+		227C8F3E209CA68E00B1491C /* KeySelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EBF209CA68D00B1491C /* KeySelector.swift */; };
+		227C8F3F209CA68E00B1491C /* BetweenMatcherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EC0209CA68D00B1491C /* BetweenMatcherData.swift */; };
+		227C8F40209CA68E00B1491C /* MatcherCombiner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EC1209CA68D00B1491C /* MatcherCombiner.swift */; };
+		227C8F41209CA68E00B1491C /* UserDefinedSegmentMatcherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EC2209CA68D00B1491C /* UserDefinedSegmentMatcherData.swift */; };
+		227C8F42209CA68E00B1491C /* Status.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EC3209CA68D00B1491C /* Status.swift */; };
+		227C8F43209CA68E00B1491C /* TrafficType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EC4209CA68D00B1491C /* TrafficType.swift */; };
+		227C8F44209CA68E00B1491C /* Evaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EC6209CA68D00B1491C /* Evaluator.swift */; };
+		227C8F45209CA68E00B1491C /* Engine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EC7209CA68D00B1491C /* Engine.swift */; };
+		227C8F46209CA68E00B1491C /* SplitConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EC9209CA68D00B1491C /* SplitConstants.swift */; };
+		227C8F47209CA68E00B1491C /* LegacyHash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8ECB209CA68D00B1491C /* LegacyHash.swift */; };
+		227C8F48209CA68E00B1491C /* Murmur3Hash.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8ECC209CA68D00B1491C /* Murmur3Hash.swift */; };
+		227C8F49209CA68E00B1491C /* Partition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8ECD209CA68D00B1491C /* Partition.swift */; };
+		227C8F4A209CA68E00B1491C /* Splitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8ECE209CA68D00B1491C /* Splitter.swift */; };
+		227C8F4B209CA68E00B1491C /* EngineError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8ECF209CA68D00B1491C /* EngineError.swift */; };
+		227C8F4C209CA68E00B1491C /* SplitError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8ED0209CA68E00B1491C /* SplitError.swift */; };
+		227C8F4D209CA68E00B1491C /* SplitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8ED2209CA68E00B1491C /* SplitView.swift */; };
+		227C8F4E209CA68E00B1491C /* EqualToSetMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8ED4209CA68E00B1491C /* EqualToSetMatcher.swift */; };
+		227C8F4F209CA68E00B1491C /* ContainsAnyOfSetMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8ED5209CA68E00B1491C /* ContainsAnyOfSetMatcher.swift */; };
+		227C8F50209CA68E00B1491C /* BaseMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8ED6209CA68E00B1491C /* BaseMatcher.swift */; };
+		227C8F51209CA68E00B1491C /* ContainsAllOfSetMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8ED7209CA68E00B1491C /* ContainsAllOfSetMatcher.swift */; };
+		227C8F52209CA68E00B1491C /* PartOfSetMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8ED8209CA68E00B1491C /* PartOfSetMatcher.swift */; };
+		227C8F53209CA68E00B1491C /* DateTime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EDA209CA68E00B1491C /* DateTime.swift */; };
+		227C8F54209CA68E00B1491C /* GreaterThanOrEqualToMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EDB209CA68E00B1491C /* GreaterThanOrEqualToMatcher.swift */; };
+		227C8F55209CA68E00B1491C /* BetweenMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EDC209CA68E00B1491C /* BetweenMatcher.swift */; };
+		227C8F56209CA68E00B1491C /* MatchesStringMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EDD209CA68E00B1491C /* MatchesStringMatcher.swift */; };
+		227C8F57209CA68E00B1491C /* EqualToBooleanMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EDE209CA68E00B1491C /* EqualToBooleanMatcher.swift */; };
+		227C8F58209CA68E00B1491C /* LessThanOrEqualToMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EDF209CA68E00B1491C /* LessThanOrEqualToMatcher.swift */; };
+		227C8F59209CA68E00B1491C /* Whitelist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EE0209CA68E00B1491C /* Whitelist.swift */; };
+		227C8F5A209CA68E00B1491C /* InSegmentMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EE1209CA68E00B1491C /* InSegmentMatcher.swift */; };
+		227C8F5B209CA68E00B1491C /* EqualToMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EE2209CA68E00B1491C /* EqualToMatcher.swift */; };
+		227C8F5C209CA68E00B1491C /* AllKeysMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EE3209CA68E00B1491C /* AllKeysMatcher.swift */; };
+		227C8F5D209CA68E00B1491C /* DependencyMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EE4209CA68E00B1491C /* DependencyMatcher.swift */; };
+		227C8F5E209CA68E00B1491C /* ContainsStringMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EE5209CA68E00B1491C /* ContainsStringMatcher.swift */; };
+		227C8F5F209CA68E00B1491C /* EndsWithMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EE6209CA68E00B1491C /* EndsWithMatcher.swift */; };
+		227C8F60209CA68E00B1491C /* StartWithMatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EE7209CA68E00B1491C /* StartWithMatcher.swift */; };
+		227C8F61209CA68E00B1491C /* ImpressionDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EE9209CA68E00B1491C /* ImpressionDTO.swift */; };
+		227C8F62209CA68F00B1491C /* ImpressionsFileStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EEB209CA68E00B1491C /* ImpressionsFileStorage.swift */; };
+		227C8F63209CA68F00B1491C /* ImpressionsConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EEC209CA68E00B1491C /* ImpressionsConstants.swift */; };
+		227C8F64209CA68F00B1491C /* ImpressionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EED209CA68E00B1491C /* ImpressionManager.swift */; };
+		227C8F65209CA68F00B1491C /* ImpressionsHit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EEE209CA68E00B1491C /* ImpressionsHit.swift */; };
+		227C8F66209CA68F00B1491C /* MemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EF0209CA68E00B1491C /* MemoryStorage.swift */; };
+		227C8F67209CA68F00B1491C /* FileStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EF1209CA68E00B1491C /* FileStorage.swift */; };
+		227C8F68209CA68F00B1491C /* StorageProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EF2209CA68E00B1491C /* StorageProtocol.swift */; };
+		227C8F69209CA68F00B1491C /* FileAndMemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EF3209CA68E00B1491C /* FileAndMemoryStorage.swift */; };
+		227C8F6A209CA68F00B1491C /* SplitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EF4209CA68E00B1491C /* SplitManager.swift */; };
+		227C8F6B209CA68F00B1491C /* SplitChangeFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EF5209CA68E00B1491C /* SplitChangeFetcher.swift */; };
+		227C8F6C209CA68F00B1491C /* SecureDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EF7209CA68E00B1491C /* SecureDataStore.swift */; };
+		227C8F6D209CA68F00B1491C /* SplitManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EF8209CA68E00B1491C /* SplitManagerProtocol.swift */; };
+		227C8F6E209CA68F00B1491C /* Date+Range.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EFA209CA68E00B1491C /* Date+Range.swift */; };
+		227C8F6F209CA68F00B1491C /* Dictionary+JSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EFB209CA68E00B1491C /* Dictionary+JSON.swift */; };
+		227C8F70209CA68F00B1491C /* DebugRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EFC209CA68E00B1491C /* DebugRequest.swift */; };
+		227C8F71209CA68F00B1491C /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EFD209CA68E00B1491C /* Dictionary+Extensions.swift */; };
+		227C8F72209CA68F00B1491C /* HttpSplitChangeFetcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 227C8EFE209CA68E00B1491C /* HttpSplitChangeFetcher.swift */; };
+		227C8F78209CA7FC00B1491C /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227C8F76209CA7FC00B1491C /* Alamofire.framework */; };
+		227C8F79209CA7FC00B1491C /* SwiftyJSON.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 227C8F77209CA7FC00B1491C /* SwiftyJSON.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		227C8E60209CA64600B1491C /* Split.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Split.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		227C8E63209CA64600B1491C /* Split.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Split.h; sourceTree = "<group>"; };
+		227C8E64209CA64600B1491C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		227C8E6C209CA68D00B1491C /* SplitEventTask.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitEventTask.swift; sourceTree = "<group>"; };
+		227C8E6D209CA68D00B1491C /* SplitInternalEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitInternalEvent.swift; sourceTree = "<group>"; };
+		227C8E6E209CA68D00B1491C /* SplitEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitEvent.swift; sourceTree = "<group>"; };
+		227C8E70209CA68D00B1491C /* SplitEventExecutorProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitEventExecutorProtocol.swift; sourceTree = "<group>"; };
+		227C8E71209CA68D00B1491C /* SplitEventExecutorResources.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitEventExecutorResources.swift; sourceTree = "<group>"; };
+		227C8E72209CA68D00B1491C /* SplitEventExecutorWithClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitEventExecutorWithClient.swift; sourceTree = "<group>"; };
+		227C8E73209CA68D00B1491C /* SplitEventExecutorFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitEventExecutorFactory.swift; sourceTree = "<group>"; };
+		227C8E74209CA68D00B1491C /* SplitEventsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitEventsManager.swift; sourceTree = "<group>"; };
+		227C8E76209CA68D00B1491C /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		227C8E77209CA68D00B1491C /* MySegmentsChangeFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySegmentsChangeFetcher.swift; sourceTree = "<group>"; };
+		227C8E78209CA68D00B1491C /* SplitClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitClient.swift; sourceTree = "<group>"; };
+		227C8E79209CA68D00B1491C /* SplitClientConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitClientConfig.swift; sourceTree = "<group>"; };
+		227C8E7B209CA68D00B1491C /* SynchronizedArrayQueue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SynchronizedArrayQueue.swift; sourceTree = "<group>"; };
+		227C8E7C209CA68D00B1491C /* HttpMySegmentsFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpMySegmentsFetcher.swift; sourceTree = "<group>"; };
+		227C8E7D209CA68D00B1491C /* SplitClientProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitClientProtocol.swift; sourceTree = "<group>"; };
+		227C8E81209CA68D00B1491C /* RestClientConfiguration.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestClientConfiguration.swift; sourceTree = "<group>"; };
+		227C8E83209CA68D00B1491C /* RestClient+MySegments.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RestClient+MySegments.swift"; sourceTree = "<group>"; };
+		227C8E84209CA68D00B1491C /* RestClient+SplitChanges.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "RestClient+SplitChanges.swift"; sourceTree = "<group>"; };
+		227C8E86209CA68D00B1491C /* Target.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Target.swift; sourceTree = "<group>"; };
+		227C8E87209CA68D00B1491C /* EnvironmentTargetManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnvironmentTargetManager.swift; sourceTree = "<group>"; };
+		227C8E88209CA68D00B1491C /* DynamicTarget.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicTarget.swift; sourceTree = "<group>"; };
+		227C8E8A209CA68D00B1491C /* DataRequest+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "DataRequest+Extensions.swift"; sourceTree = "<group>"; };
+		227C8E8B209CA68D00B1491C /* SessionManager+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SessionManager+Extensions.swift"; sourceTree = "<group>"; };
+		227C8E8D209CA68D00B1491C /* DataResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataResult.swift; sourceTree = "<group>"; };
+		227C8E8E209CA68D00B1491C /* RestClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestClient.swift; sourceTree = "<group>"; };
+		227C8E90209CA68D00B1491C /* ErrorCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorCode.swift; sourceTree = "<group>"; };
+		227C8E92209CA68D00B1491C /* RestClientRequestProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestClientRequestProtocol.swift; sourceTree = "<group>"; };
+		227C8E93209CA68D00B1491C /* RestClientManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RestClientManagerProtocol.swift; sourceTree = "<group>"; };
+		227C8E95209CA68D00B1491C /* InfoUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoUtils.swift; sourceTree = "<group>"; };
+		227C8E97209CA68D00B1491C /* SplitPersistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitPersistence.swift; sourceTree = "<group>"; };
+		227C8E98209CA68D00B1491C /* PlistSplitPersistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlistSplitPersistence.swift; sourceTree = "<group>"; };
+		227C8E99209CA68D00B1491C /* SplitFactoryProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitFactoryProtocol.swift; sourceTree = "<group>"; };
+		227C8E9A209CA68D00B1491C /* Logger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Logger.swift; sourceTree = "<group>"; };
+		227C8E9D209CA68D00B1491C /* InMemoryMySegmentsCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InMemoryMySegmentsCache.swift; sourceTree = "<group>"; };
+		227C8E9E209CA68D00B1491C /* SplitChangeCacheProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitChangeCacheProtocol.swift; sourceTree = "<group>"; };
+		227C8E9F209CA68D00B1491C /* SplitChangeCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitChangeCache.swift; sourceTree = "<group>"; };
+		227C8EA0209CA68D00B1491C /* InMemorySplitCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InMemorySplitCache.swift; sourceTree = "<group>"; };
+		227C8EA1209CA68D00B1491C /* SplitCacheProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitCacheProtocol.swift; sourceTree = "<group>"; };
+		227C8EA2209CA68D00B1491C /* MySegmentsCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySegmentsCache.swift; sourceTree = "<group>"; };
+		227C8EA3209CA68D00B1491C /* SplitCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitCache.swift; sourceTree = "<group>"; };
+		227C8EA4209CA68D00B1491C /* MySegmentsCacheProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySegmentsCacheProtocol.swift; sourceTree = "<group>"; };
+		227C8EA6209CA68D00B1491C /* SplitFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitFetcher.swift; sourceTree = "<group>"; };
+		227C8EA7209CA68D00B1491C /* ParsedSplit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParsedSplit.swift; sourceTree = "<group>"; };
+		227C8EA8209CA68D00B1491C /* RefreshableMySegmentsFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshableMySegmentsFetcher.swift; sourceTree = "<group>"; };
+		227C8EA9209CA68D00B1491C /* MySegmentsFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MySegmentsFetcher.swift; sourceTree = "<group>"; };
+		227C8EAA209CA68D00B1491C /* RefreshableSplitFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RefreshableSplitFetcher.swift; sourceTree = "<group>"; };
+		227C8EAB209CA68D00B1491C /* SplitFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitFactory.swift; sourceTree = "<group>"; };
+		227C8EAC209CA68D00B1491C /* Version.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Version.swift; sourceTree = "<group>"; };
+		227C8EAF209CA68D00B1491C /* WhitelistMatcherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WhitelistMatcherData.swift; sourceTree = "<group>"; };
+		227C8EB0209CA68D00B1491C /* DependencyMatcherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependencyMatcherData.swift; sourceTree = "<group>"; };
+		227C8EB1209CA68D00B1491C /* UnaryNumericMatcherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnaryNumericMatcherData.swift; sourceTree = "<group>"; };
+		227C8EB2209CA68D00B1491C /* MatcherGroup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatcherGroup.swift; sourceTree = "<group>"; };
+		227C8EB3209CA68D00B1491C /* Treatment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Treatment.swift; sourceTree = "<group>"; };
+		227C8EB4209CA68D00B1491C /* Condition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Condition.swift; sourceTree = "<group>"; };
+		227C8EB5209CA68D00B1491C /* MatcherProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatcherProtocol.swift; sourceTree = "<group>"; };
+		227C8EB6209CA68D00B1491C /* DataType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataType.swift; sourceTree = "<group>"; };
+		227C8EB7209CA68D00B1491C /* ConditionType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ConditionType.swift; sourceTree = "<group>"; };
+		227C8EB8209CA68D00B1491C /* Matcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Matcher.swift; sourceTree = "<group>"; };
+		227C8EB9209CA68D00B1491C /* MatcherType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatcherType.swift; sourceTree = "<group>"; };
+		227C8EBB209CA68D00B1491C /* Split.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Split.swift; sourceTree = "<group>"; };
+		227C8EBC209CA68D00B1491C /* SplitChange.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitChange.swift; sourceTree = "<group>"; };
+		227C8EBD209CA68D00B1491C /* SplitBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitBase.swift; sourceTree = "<group>"; };
+		227C8EBE209CA68D00B1491C /* Key.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Key.swift; sourceTree = "<group>"; };
+		227C8EBF209CA68D00B1491C /* KeySelector.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeySelector.swift; sourceTree = "<group>"; };
+		227C8EC0209CA68D00B1491C /* BetweenMatcherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BetweenMatcherData.swift; sourceTree = "<group>"; };
+		227C8EC1209CA68D00B1491C /* MatcherCombiner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatcherCombiner.swift; sourceTree = "<group>"; };
+		227C8EC2209CA68D00B1491C /* UserDefinedSegmentMatcherData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefinedSegmentMatcherData.swift; sourceTree = "<group>"; };
+		227C8EC3209CA68D00B1491C /* Status.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Status.swift; sourceTree = "<group>"; };
+		227C8EC4209CA68D00B1491C /* TrafficType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrafficType.swift; sourceTree = "<group>"; };
+		227C8EC6209CA68D00B1491C /* Evaluator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Evaluator.swift; sourceTree = "<group>"; };
+		227C8EC7209CA68D00B1491C /* Engine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Engine.swift; sourceTree = "<group>"; };
+		227C8EC9209CA68D00B1491C /* SplitConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitConstants.swift; sourceTree = "<group>"; };
+		227C8ECB209CA68D00B1491C /* LegacyHash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LegacyHash.swift; sourceTree = "<group>"; };
+		227C8ECC209CA68D00B1491C /* Murmur3Hash.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Murmur3Hash.swift; sourceTree = "<group>"; };
+		227C8ECD209CA68D00B1491C /* Partition.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Partition.swift; sourceTree = "<group>"; };
+		227C8ECE209CA68D00B1491C /* Splitter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Splitter.swift; sourceTree = "<group>"; };
+		227C8ECF209CA68D00B1491C /* EngineError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EngineError.swift; sourceTree = "<group>"; };
+		227C8ED0209CA68E00B1491C /* SplitError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitError.swift; sourceTree = "<group>"; };
+		227C8ED2209CA68E00B1491C /* SplitView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitView.swift; sourceTree = "<group>"; };
+		227C8ED4209CA68E00B1491C /* EqualToSetMatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EqualToSetMatcher.swift; sourceTree = "<group>"; };
+		227C8ED5209CA68E00B1491C /* ContainsAnyOfSetMatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainsAnyOfSetMatcher.swift; sourceTree = "<group>"; };
+		227C8ED6209CA68E00B1491C /* BaseMatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseMatcher.swift; sourceTree = "<group>"; };
+		227C8ED7209CA68E00B1491C /* ContainsAllOfSetMatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainsAllOfSetMatcher.swift; sourceTree = "<group>"; };
+		227C8ED8209CA68E00B1491C /* PartOfSetMatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartOfSetMatcher.swift; sourceTree = "<group>"; };
+		227C8EDA209CA68E00B1491C /* DateTime.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DateTime.swift; sourceTree = "<group>"; };
+		227C8EDB209CA68E00B1491C /* GreaterThanOrEqualToMatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GreaterThanOrEqualToMatcher.swift; sourceTree = "<group>"; };
+		227C8EDC209CA68E00B1491C /* BetweenMatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BetweenMatcher.swift; sourceTree = "<group>"; };
+		227C8EDD209CA68E00B1491C /* MatchesStringMatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MatchesStringMatcher.swift; sourceTree = "<group>"; };
+		227C8EDE209CA68E00B1491C /* EqualToBooleanMatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EqualToBooleanMatcher.swift; sourceTree = "<group>"; };
+		227C8EDF209CA68E00B1491C /* LessThanOrEqualToMatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LessThanOrEqualToMatcher.swift; sourceTree = "<group>"; };
+		227C8EE0209CA68E00B1491C /* Whitelist.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Whitelist.swift; sourceTree = "<group>"; };
+		227C8EE1209CA68E00B1491C /* InSegmentMatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InSegmentMatcher.swift; sourceTree = "<group>"; };
+		227C8EE2209CA68E00B1491C /* EqualToMatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EqualToMatcher.swift; sourceTree = "<group>"; };
+		227C8EE3209CA68E00B1491C /* AllKeysMatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllKeysMatcher.swift; sourceTree = "<group>"; };
+		227C8EE4209CA68E00B1491C /* DependencyMatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DependencyMatcher.swift; sourceTree = "<group>"; };
+		227C8EE5209CA68E00B1491C /* ContainsStringMatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContainsStringMatcher.swift; sourceTree = "<group>"; };
+		227C8EE6209CA68E00B1491C /* EndsWithMatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndsWithMatcher.swift; sourceTree = "<group>"; };
+		227C8EE7209CA68E00B1491C /* StartWithMatcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartWithMatcher.swift; sourceTree = "<group>"; };
+		227C8EE9209CA68E00B1491C /* ImpressionDTO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImpressionDTO.swift; sourceTree = "<group>"; };
+		227C8EEB209CA68E00B1491C /* ImpressionsFileStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImpressionsFileStorage.swift; sourceTree = "<group>"; };
+		227C8EEC209CA68E00B1491C /* ImpressionsConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImpressionsConstants.swift; sourceTree = "<group>"; };
+		227C8EED209CA68E00B1491C /* ImpressionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImpressionManager.swift; sourceTree = "<group>"; };
+		227C8EEE209CA68E00B1491C /* ImpressionsHit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImpressionsHit.swift; sourceTree = "<group>"; };
+		227C8EF0209CA68E00B1491C /* MemoryStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryStorage.swift; sourceTree = "<group>"; };
+		227C8EF1209CA68E00B1491C /* FileStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileStorage.swift; sourceTree = "<group>"; };
+		227C8EF2209CA68E00B1491C /* StorageProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageProtocol.swift; sourceTree = "<group>"; };
+		227C8EF3209CA68E00B1491C /* FileAndMemoryStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileAndMemoryStorage.swift; sourceTree = "<group>"; };
+		227C8EF4209CA68E00B1491C /* SplitManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitManager.swift; sourceTree = "<group>"; };
+		227C8EF5209CA68E00B1491C /* SplitChangeFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitChangeFetcher.swift; sourceTree = "<group>"; };
+		227C8EF7209CA68E00B1491C /* SecureDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecureDataStore.swift; sourceTree = "<group>"; };
+		227C8EF8209CA68E00B1491C /* SplitManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SplitManagerProtocol.swift; sourceTree = "<group>"; };
+		227C8EFA209CA68E00B1491C /* Date+Range.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Range.swift"; sourceTree = "<group>"; };
+		227C8EFB209CA68E00B1491C /* Dictionary+JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+JSON.swift"; sourceTree = "<group>"; };
+		227C8EFC209CA68E00B1491C /* DebugRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebugRequest.swift; sourceTree = "<group>"; };
+		227C8EFD209CA68E00B1491C /* Dictionary+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extensions.swift"; sourceTree = "<group>"; };
+		227C8EFE209CA68E00B1491C /* HttpSplitChangeFetcher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpSplitChangeFetcher.swift; sourceTree = "<group>"; };
+		227C8F76209CA7FC00B1491C /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = Carthage/Build/iOS/Alamofire.framework; sourceTree = "<group>"; };
+		227C8F77209CA7FC00B1491C /* SwiftyJSON.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyJSON.framework; path = Carthage/Build/iOS/SwiftyJSON.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		227C8E5C209CA64600B1491C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227C8F78209CA7FC00B1491C /* Alamofire.framework in Frameworks */,
+				227C8F79209CA7FC00B1491C /* SwiftyJSON.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		227C8E56209CA64600B1491C = {
+			isa = PBXGroup;
+			children = (
+				227C8E62209CA64600B1491C /* Split */,
+				227C8E61209CA64600B1491C /* Products */,
+				227C8F75209CA7FC00B1491C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		227C8E61209CA64600B1491C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				227C8E60209CA64600B1491C /* Split.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		227C8E62209CA64600B1491C /* Split */ = {
+			isa = PBXGroup;
+			children = (
+				227C8F74209CA69C00B1491C /* Sources */,
+				227C8E63209CA64600B1491C /* Split.h */,
+				227C8E64209CA64600B1491C /* Info.plist */,
+			);
+			path = Split;
+			sourceTree = "<group>";
+		};
+		227C8E6B209CA68D00B1491C /* Events */ = {
+			isa = PBXGroup;
+			children = (
+				227C8E6C209CA68D00B1491C /* SplitEventTask.swift */,
+				227C8E6D209CA68D00B1491C /* SplitInternalEvent.swift */,
+				227C8E6E209CA68D00B1491C /* SplitEvent.swift */,
+				227C8E6F209CA68D00B1491C /* Executors */,
+				227C8E74209CA68D00B1491C /* SplitEventsManager.swift */,
+			);
+			path = Events;
+			sourceTree = "<group>";
+		};
+		227C8E6F209CA68D00B1491C /* Executors */ = {
+			isa = PBXGroup;
+			children = (
+				227C8E70209CA68D00B1491C /* SplitEventExecutorProtocol.swift */,
+				227C8E71209CA68D00B1491C /* SplitEventExecutorResources.swift */,
+				227C8E72209CA68D00B1491C /* SplitEventExecutorWithClient.swift */,
+				227C8E73209CA68D00B1491C /* SplitEventExecutorFactory.swift */,
+			);
+			path = Executors;
+			sourceTree = "<group>";
+		};
+		227C8E75209CA68D00B1491C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				227C8E76209CA68D00B1491C /* .gitkeep */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		227C8E7A209CA68D00B1491C /* Structs */ = {
+			isa = PBXGroup;
+			children = (
+				227C8E7B209CA68D00B1491C /* SynchronizedArrayQueue.swift */,
+			);
+			path = Structs;
+			sourceTree = "<group>";
+		};
+		227C8E7E209CA68D00B1491C /* Fetcher Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				227C8E7F209CA68D00B1491C /* Network */,
+				227C8E94209CA68D00B1491C /* Utils */,
+				227C8E96209CA68D00B1491C /* Persistance */,
+			);
+			path = "Fetcher Infrastructure";
+			sourceTree = "<group>";
+		};
+		227C8E7F209CA68D00B1491C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				227C8E80209CA68D00B1491C /* Configuration */,
+				227C8E82209CA68D00B1491C /* Endpoints */,
+				227C8E85209CA68D00B1491C /* Targets */,
+				227C8E89209CA68D00B1491C /* Extensions */,
+				227C8E8C209CA68D00B1491C /* Results */,
+				227C8E8E209CA68D00B1491C /* RestClient.swift */,
+				227C8E8F209CA68D00B1491C /* Errors */,
+				227C8E91209CA68D00B1491C /* Protocols */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		227C8E80209CA68D00B1491C /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				227C8E81209CA68D00B1491C /* RestClientConfiguration.swift */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+		227C8E82209CA68D00B1491C /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+				227C8E83209CA68D00B1491C /* RestClient+MySegments.swift */,
+				227C8E84209CA68D00B1491C /* RestClient+SplitChanges.swift */,
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		227C8E85209CA68D00B1491C /* Targets */ = {
+			isa = PBXGroup;
+			children = (
+				227C8E86209CA68D00B1491C /* Target.swift */,
+				227C8E87209CA68D00B1491C /* EnvironmentTargetManager.swift */,
+				227C8E88209CA68D00B1491C /* DynamicTarget.swift */,
+			);
+			path = Targets;
+			sourceTree = "<group>";
+		};
+		227C8E89209CA68D00B1491C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				227C8E8A209CA68D00B1491C /* DataRequest+Extensions.swift */,
+				227C8E8B209CA68D00B1491C /* SessionManager+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		227C8E8C209CA68D00B1491C /* Results */ = {
+			isa = PBXGroup;
+			children = (
+				227C8E8D209CA68D00B1491C /* DataResult.swift */,
+			);
+			path = Results;
+			sourceTree = "<group>";
+		};
+		227C8E8F209CA68D00B1491C /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				227C8E90209CA68D00B1491C /* ErrorCode.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		227C8E91209CA68D00B1491C /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				227C8E92209CA68D00B1491C /* RestClientRequestProtocol.swift */,
+				227C8E93209CA68D00B1491C /* RestClientManagerProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		227C8E94209CA68D00B1491C /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				227C8E95209CA68D00B1491C /* InfoUtils.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		227C8E96209CA68D00B1491C /* Persistance */ = {
+			isa = PBXGroup;
+			children = (
+				227C8E97209CA68D00B1491C /* SplitPersistence.swift */,
+				227C8E98209CA68D00B1491C /* PlistSplitPersistence.swift */,
+			);
+			path = Persistance;
+			sourceTree = "<group>";
+		};
+		227C8E9B209CA68D00B1491C /* Fetcher Engine */ = {
+			isa = PBXGroup;
+			children = (
+				227C8E9C209CA68D00B1491C /* Cache */,
+				227C8EA5209CA68D00B1491C /* Refresh */,
+			);
+			path = "Fetcher Engine";
+			sourceTree = "<group>";
+		};
+		227C8E9C209CA68D00B1491C /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				227C8E9D209CA68D00B1491C /* InMemoryMySegmentsCache.swift */,
+				227C8E9E209CA68D00B1491C /* SplitChangeCacheProtocol.swift */,
+				227C8E9F209CA68D00B1491C /* SplitChangeCache.swift */,
+				227C8EA0209CA68D00B1491C /* InMemorySplitCache.swift */,
+				227C8EA1209CA68D00B1491C /* SplitCacheProtocol.swift */,
+				227C8EA2209CA68D00B1491C /* MySegmentsCache.swift */,
+				227C8EA3209CA68D00B1491C /* SplitCache.swift */,
+				227C8EA4209CA68D00B1491C /* MySegmentsCacheProtocol.swift */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		227C8EA5209CA68D00B1491C /* Refresh */ = {
+			isa = PBXGroup;
+			children = (
+				227C8EA6209CA68D00B1491C /* SplitFetcher.swift */,
+				227C8EA7209CA68D00B1491C /* ParsedSplit.swift */,
+				227C8EA8209CA68D00B1491C /* RefreshableMySegmentsFetcher.swift */,
+				227C8EA9209CA68D00B1491C /* MySegmentsFetcher.swift */,
+				227C8EAA209CA68D00B1491C /* RefreshableSplitFetcher.swift */,
+			);
+			path = Refresh;
+			sourceTree = "<group>";
+		};
+		227C8EAD209CA68D00B1491C /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				227C8EAE209CA68D00B1491C /* SplitModels */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		227C8EAE209CA68D00B1491C /* SplitModels */ = {
+			isa = PBXGroup;
+			children = (
+				227C8EAF209CA68D00B1491C /* WhitelistMatcherData.swift */,
+				227C8EB0209CA68D00B1491C /* DependencyMatcherData.swift */,
+				227C8EB1209CA68D00B1491C /* UnaryNumericMatcherData.swift */,
+				227C8EB2209CA68D00B1491C /* MatcherGroup.swift */,
+				227C8EB3209CA68D00B1491C /* Treatment.swift */,
+				227C8EB4209CA68D00B1491C /* Condition.swift */,
+				227C8EB5209CA68D00B1491C /* MatcherProtocol.swift */,
+				227C8EB6209CA68D00B1491C /* DataType.swift */,
+				227C8EB7209CA68D00B1491C /* ConditionType.swift */,
+				227C8EB8209CA68D00B1491C /* Matcher.swift */,
+				227C8EB9209CA68D00B1491C /* MatcherType.swift */,
+				227C8EBA209CA68D00B1491C /* SplitModel */,
+				227C8EBE209CA68D00B1491C /* Key.swift */,
+				227C8EBF209CA68D00B1491C /* KeySelector.swift */,
+				227C8EC0209CA68D00B1491C /* BetweenMatcherData.swift */,
+				227C8EC1209CA68D00B1491C /* MatcherCombiner.swift */,
+				227C8EC2209CA68D00B1491C /* UserDefinedSegmentMatcherData.swift */,
+				227C8EC3209CA68D00B1491C /* Status.swift */,
+				227C8EC4209CA68D00B1491C /* TrafficType.swift */,
+			);
+			path = SplitModels;
+			sourceTree = "<group>";
+		};
+		227C8EBA209CA68D00B1491C /* SplitModel */ = {
+			isa = PBXGroup;
+			children = (
+				227C8EBB209CA68D00B1491C /* Split.swift */,
+				227C8EBC209CA68D00B1491C /* SplitChange.swift */,
+				227C8EBD209CA68D00B1491C /* SplitBase.swift */,
+			);
+			path = SplitModel;
+			sourceTree = "<group>";
+		};
+		227C8EC5209CA68D00B1491C /* SplitEngine */ = {
+			isa = PBXGroup;
+			children = (
+				227C8EC6209CA68D00B1491C /* Evaluator.swift */,
+				227C8EC7209CA68D00B1491C /* Engine.swift */,
+				227C8EC8209CA68D00B1491C /* Constants */,
+				227C8ECA209CA68D00B1491C /* Hashing */,
+				227C8ECD209CA68D00B1491C /* Partition.swift */,
+				227C8ECE209CA68D00B1491C /* Splitter.swift */,
+				227C8ECF209CA68D00B1491C /* EngineError.swift */,
+			);
+			path = SplitEngine;
+			sourceTree = "<group>";
+		};
+		227C8EC8209CA68D00B1491C /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				227C8EC9209CA68D00B1491C /* SplitConstants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		227C8ECA209CA68D00B1491C /* Hashing */ = {
+			isa = PBXGroup;
+			children = (
+				227C8ECB209CA68D00B1491C /* LegacyHash.swift */,
+				227C8ECC209CA68D00B1491C /* Murmur3Hash.swift */,
+			);
+			path = Hashing;
+			sourceTree = "<group>";
+		};
+		227C8ED1209CA68E00B1491C /* Api */ = {
+			isa = PBXGroup;
+			children = (
+				227C8ED2209CA68E00B1491C /* SplitView.swift */,
+			);
+			path = Api;
+			sourceTree = "<group>";
+		};
+		227C8ED3209CA68E00B1491C /* Matchers */ = {
+			isa = PBXGroup;
+			children = (
+				227C8ED4209CA68E00B1491C /* EqualToSetMatcher.swift */,
+				227C8ED5209CA68E00B1491C /* ContainsAnyOfSetMatcher.swift */,
+				227C8ED6209CA68E00B1491C /* BaseMatcher.swift */,
+				227C8ED7209CA68E00B1491C /* ContainsAllOfSetMatcher.swift */,
+				227C8ED8209CA68E00B1491C /* PartOfSetMatcher.swift */,
+				227C8ED9209CA68E00B1491C /* DataType */,
+				227C8EDB209CA68E00B1491C /* GreaterThanOrEqualToMatcher.swift */,
+				227C8EDC209CA68E00B1491C /* BetweenMatcher.swift */,
+				227C8EDD209CA68E00B1491C /* MatchesStringMatcher.swift */,
+				227C8EDE209CA68E00B1491C /* EqualToBooleanMatcher.swift */,
+				227C8EDF209CA68E00B1491C /* LessThanOrEqualToMatcher.swift */,
+				227C8EE0209CA68E00B1491C /* Whitelist.swift */,
+				227C8EE1209CA68E00B1491C /* InSegmentMatcher.swift */,
+				227C8EE2209CA68E00B1491C /* EqualToMatcher.swift */,
+				227C8EE3209CA68E00B1491C /* AllKeysMatcher.swift */,
+				227C8EE4209CA68E00B1491C /* DependencyMatcher.swift */,
+				227C8EE5209CA68E00B1491C /* ContainsStringMatcher.swift */,
+				227C8EE6209CA68E00B1491C /* EndsWithMatcher.swift */,
+				227C8EE7209CA68E00B1491C /* StartWithMatcher.swift */,
+			);
+			path = Matchers;
+			sourceTree = "<group>";
+		};
+		227C8ED9209CA68E00B1491C /* DataType */ = {
+			isa = PBXGroup;
+			children = (
+				227C8EDA209CA68E00B1491C /* DateTime.swift */,
+			);
+			path = DataType;
+			sourceTree = "<group>";
+		};
+		227C8EE8209CA68E00B1491C /* Impressions */ = {
+			isa = PBXGroup;
+			children = (
+				227C8EE9209CA68E00B1491C /* ImpressionDTO.swift */,
+				227C8EEA209CA68E00B1491C /* ImpressionsStorage */,
+				227C8EEC209CA68E00B1491C /* ImpressionsConstants.swift */,
+				227C8EED209CA68E00B1491C /* ImpressionManager.swift */,
+				227C8EEE209CA68E00B1491C /* ImpressionsHit.swift */,
+			);
+			path = Impressions;
+			sourceTree = "<group>";
+		};
+		227C8EEA209CA68E00B1491C /* ImpressionsStorage */ = {
+			isa = PBXGroup;
+			children = (
+				227C8EEB209CA68E00B1491C /* ImpressionsFileStorage.swift */,
+			);
+			path = ImpressionsStorage;
+			sourceTree = "<group>";
+		};
+		227C8EEF209CA68E00B1491C /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				227C8EF0209CA68E00B1491C /* MemoryStorage.swift */,
+				227C8EF1209CA68E00B1491C /* FileStorage.swift */,
+				227C8EF2209CA68E00B1491C /* StorageProtocol.swift */,
+				227C8EF3209CA68E00B1491C /* FileAndMemoryStorage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		227C8EF6209CA68E00B1491C /* Secure */ = {
+			isa = PBXGroup;
+			children = (
+				227C8EF7209CA68E00B1491C /* SecureDataStore.swift */,
+			);
+			path = Secure;
+			sourceTree = "<group>";
+		};
+		227C8EF9209CA68E00B1491C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				227C8EFA209CA68E00B1491C /* Date+Range.swift */,
+				227C8EFB209CA68E00B1491C /* Dictionary+JSON.swift */,
+				227C8EFC209CA68E00B1491C /* DebugRequest.swift */,
+				227C8EFD209CA68E00B1491C /* Dictionary+Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		227C8F74209CA69C00B1491C /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				227C8ED1209CA68E00B1491C /* Api */,
+				227C8E75209CA68D00B1491C /* Assets */,
+				227C8E6B209CA68D00B1491C /* Events */,
+				227C8EF9209CA68E00B1491C /* Extensions */,
+				227C8E9B209CA68D00B1491C /* Fetcher Engine */,
+				227C8E7E209CA68D00B1491C /* Fetcher Infrastructure */,
+				227C8E7C209CA68D00B1491C /* HttpMySegmentsFetcher.swift */,
+				227C8EFE209CA68E00B1491C /* HttpSplitChangeFetcher.swift */,
+				227C8EE8209CA68E00B1491C /* Impressions */,
+				227C8E9A209CA68D00B1491C /* Logger.swift */,
+				227C8ED3209CA68E00B1491C /* Matchers */,
+				227C8E77209CA68D00B1491C /* MySegmentsChangeFetcher.swift */,
+				227C8EAD209CA68D00B1491C /* Networking */,
+				227C8EF6209CA68E00B1491C /* Secure */,
+				227C8EF5209CA68E00B1491C /* SplitChangeFetcher.swift */,
+				227C8E78209CA68D00B1491C /* SplitClient.swift */,
+				227C8E79209CA68D00B1491C /* SplitClientConfig.swift */,
+				227C8E7D209CA68D00B1491C /* SplitClientProtocol.swift */,
+				227C8EC5209CA68D00B1491C /* SplitEngine */,
+				227C8ED0209CA68E00B1491C /* SplitError.swift */,
+				227C8EAB209CA68D00B1491C /* SplitFactory.swift */,
+				227C8E99209CA68D00B1491C /* SplitFactoryProtocol.swift */,
+				227C8EF4209CA68E00B1491C /* SplitManager.swift */,
+				227C8EF8209CA68E00B1491C /* SplitManagerProtocol.swift */,
+				227C8EEF209CA68E00B1491C /* Storage */,
+				227C8E7A209CA68D00B1491C /* Structs */,
+				227C8EAC209CA68D00B1491C /* Version.swift */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+		227C8F75209CA7FC00B1491C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				227C8F76209CA7FC00B1491C /* Alamofire.framework */,
+				227C8F77209CA7FC00B1491C /* SwiftyJSON.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		227C8E5D209CA64600B1491C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227C8E65209CA64600B1491C /* Split.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		227C8E5F209CA64600B1491C /* Split */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 227C8E68209CA64600B1491C /* Build configuration list for PBXNativeTarget "Split" */;
+			buildPhases = (
+				227C8E5B209CA64600B1491C /* Sources */,
+				227C8E5C209CA64600B1491C /* Frameworks */,
+				227C8E5D209CA64600B1491C /* Headers */,
+				227C8E5E209CA64600B1491C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Split;
+			productName = Split;
+			productReference = 227C8E60209CA64600B1491C /* Split.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		227C8E57209CA64600B1491C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "David Boothe";
+				TargetAttributes = {
+					227C8E5F209CA64600B1491C = {
+						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 0930;
+					};
+				};
+			};
+			buildConfigurationList = 227C8E5A209CA64600B1491C /* Build configuration list for PBXProject "Split" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 227C8E56209CA64600B1491C;
+			productRefGroup = 227C8E61209CA64600B1491C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				227C8E5F209CA64600B1491C /* Split */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		227C8E5E209CA64600B1491C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227C8F07209CA68E00B1491C /* .gitkeep in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		227C8E5B209CA64600B1491C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				227C8F2C209CA68E00B1491C /* RefreshableSplitFetcher.swift in Sources */,
+				227C8F15209CA68E00B1491C /* SessionManager+Extensions.swift in Sources */,
+				227C8F58209CA68E00B1491C /* LessThanOrEqualToMatcher.swift in Sources */,
+				227C8F59209CA68E00B1491C /* Whitelist.swift in Sources */,
+				227C8F50209CA68E00B1491C /* BaseMatcher.swift in Sources */,
+				227C8F2E209CA68E00B1491C /* Version.swift in Sources */,
+				227C8F1A209CA68E00B1491C /* RestClientManagerProtocol.swift in Sources */,
+				227C8F47209CA68E00B1491C /* LegacyHash.swift in Sources */,
+				227C8F3E209CA68E00B1491C /* KeySelector.swift in Sources */,
+				227C8F38209CA68E00B1491C /* Matcher.swift in Sources */,
+				227C8F5B209CA68E00B1491C /* EqualToMatcher.swift in Sources */,
+				227C8F56209CA68E00B1491C /* MatchesStringMatcher.swift in Sources */,
+				227C8F40209CA68E00B1491C /* MatcherCombiner.swift in Sources */,
+				227C8F51209CA68E00B1491C /* ContainsAllOfSetMatcher.swift in Sources */,
+				227C8F08209CA68E00B1491C /* MySegmentsChangeFetcher.swift in Sources */,
+				227C8F14209CA68E00B1491C /* DataRequest+Extensions.swift in Sources */,
+				227C8F25209CA68E00B1491C /* MySegmentsCache.swift in Sources */,
+				227C8F1C209CA68E00B1491C /* SplitPersistence.swift in Sources */,
+				227C8F02209CA68E00B1491C /* SplitEventExecutorProtocol.swift in Sources */,
+				227C8F05209CA68E00B1491C /* SplitEventExecutorFactory.swift in Sources */,
+				227C8F1F209CA68E00B1491C /* Logger.swift in Sources */,
+				227C8F0B209CA68E00B1491C /* SynchronizedArrayQueue.swift in Sources */,
+				227C8F28209CA68E00B1491C /* SplitFetcher.swift in Sources */,
+				227C8F34209CA68E00B1491C /* Condition.swift in Sources */,
+				227C8F41209CA68E00B1491C /* UserDefinedSegmentMatcherData.swift in Sources */,
+				227C8F4A209CA68E00B1491C /* Splitter.swift in Sources */,
+				227C8F5F209CA68E00B1491C /* EndsWithMatcher.swift in Sources */,
+				227C8F70209CA68F00B1491C /* DebugRequest.swift in Sources */,
+				227C8F6F209CA68F00B1491C /* Dictionary+JSON.swift in Sources */,
+				227C8F1B209CA68E00B1491C /* InfoUtils.swift in Sources */,
+				227C8F49209CA68E00B1491C /* Partition.swift in Sources */,
+				227C8F4C209CA68E00B1491C /* SplitError.swift in Sources */,
+				227C8F61209CA68E00B1491C /* ImpressionDTO.swift in Sources */,
+				227C8F33209CA68E00B1491C /* Treatment.swift in Sources */,
+				227C8F26209CA68E00B1491C /* SplitCache.swift in Sources */,
+				227C8F3B209CA68E00B1491C /* SplitChange.swift in Sources */,
+				227C8F12209CA68E00B1491C /* EnvironmentTargetManager.swift in Sources */,
+				227C8F3A209CA68E00B1491C /* Split.swift in Sources */,
+				227C8F2F209CA68E00B1491C /* WhitelistMatcherData.swift in Sources */,
+				227C8F68209CA68F00B1491C /* StorageProtocol.swift in Sources */,
+				227C8F54209CA68E00B1491C /* GreaterThanOrEqualToMatcher.swift in Sources */,
+				227C8F65209CA68F00B1491C /* ImpressionsHit.swift in Sources */,
+				227C8F04209CA68E00B1491C /* SplitEventExecutorWithClient.swift in Sources */,
+				227C8F52209CA68E00B1491C /* PartOfSetMatcher.swift in Sources */,
+				227C8F0A209CA68E00B1491C /* SplitClientConfig.swift in Sources */,
+				227C8F00209CA68E00B1491C /* SplitInternalEvent.swift in Sources */,
+				227C8F1D209CA68E00B1491C /* PlistSplitPersistence.swift in Sources */,
+				227C8F37209CA68E00B1491C /* ConditionType.swift in Sources */,
+				227C8F10209CA68E00B1491C /* RestClient+SplitChanges.swift in Sources */,
+				227C8F6C209CA68F00B1491C /* SecureDataStore.swift in Sources */,
+				227C8F30209CA68E00B1491C /* DependencyMatcherData.swift in Sources */,
+				227C8F6E209CA68F00B1491C /* Date+Range.swift in Sources */,
+				227C8F3D209CA68E00B1491C /* Key.swift in Sources */,
+				227C8F0D209CA68E00B1491C /* SplitClientProtocol.swift in Sources */,
+				227C8F39209CA68E00B1491C /* MatcherType.swift in Sources */,
+				227C8F01209CA68E00B1491C /* SplitEvent.swift in Sources */,
+				227C8F03209CA68E00B1491C /* SplitEventExecutorResources.swift in Sources */,
+				227C8F2D209CA68E00B1491C /* SplitFactory.swift in Sources */,
+				227C8F23209CA68E00B1491C /* InMemorySplitCache.swift in Sources */,
+				227C8F35209CA68E00B1491C /* MatcherProtocol.swift in Sources */,
+				227C8F36209CA68E00B1491C /* DataType.swift in Sources */,
+				227C8F0F209CA68E00B1491C /* RestClient+MySegments.swift in Sources */,
+				227C8F69209CA68F00B1491C /* FileAndMemoryStorage.swift in Sources */,
+				227C8F11209CA68E00B1491C /* Target.swift in Sources */,
+				227C8F2A209CA68E00B1491C /* RefreshableMySegmentsFetcher.swift in Sources */,
+				227C8F71209CA68F00B1491C /* Dictionary+Extensions.swift in Sources */,
+				227C8F48209CA68E00B1491C /* Murmur3Hash.swift in Sources */,
+				227C8F17209CA68E00B1491C /* RestClient.swift in Sources */,
+				227C8F43209CA68E00B1491C /* TrafficType.swift in Sources */,
+				227C8F6A209CA68F00B1491C /* SplitManager.swift in Sources */,
+				227C8F13209CA68E00B1491C /* DynamicTarget.swift in Sources */,
+				227C8F4F209CA68E00B1491C /* ContainsAnyOfSetMatcher.swift in Sources */,
+				227C8EFF209CA68E00B1491C /* SplitEventTask.swift in Sources */,
+				227C8F0C209CA68E00B1491C /* HttpMySegmentsFetcher.swift in Sources */,
+				227C8F4E209CA68E00B1491C /* EqualToSetMatcher.swift in Sources */,
+				227C8F57209CA68E00B1491C /* EqualToBooleanMatcher.swift in Sources */,
+				227C8F5D209CA68E00B1491C /* DependencyMatcher.swift in Sources */,
+				227C8F29209CA68E00B1491C /* ParsedSplit.swift in Sources */,
+				227C8F22209CA68E00B1491C /* SplitChangeCache.swift in Sources */,
+				227C8F46209CA68E00B1491C /* SplitConstants.swift in Sources */,
+				227C8F6D209CA68F00B1491C /* SplitManagerProtocol.swift in Sources */,
+				227C8F21209CA68E00B1491C /* SplitChangeCacheProtocol.swift in Sources */,
+				227C8F32209CA68E00B1491C /* MatcherGroup.swift in Sources */,
+				227C8F44209CA68E00B1491C /* Evaluator.swift in Sources */,
+				227C8F18209CA68E00B1491C /* ErrorCode.swift in Sources */,
+				227C8F5E209CA68E00B1491C /* ContainsStringMatcher.swift in Sources */,
+				227C8F20209CA68E00B1491C /* InMemoryMySegmentsCache.swift in Sources */,
+				227C8F64209CA68F00B1491C /* ImpressionManager.swift in Sources */,
+				227C8F2B209CA68E00B1491C /* MySegmentsFetcher.swift in Sources */,
+				227C8F55209CA68E00B1491C /* BetweenMatcher.swift in Sources */,
+				227C8F0E209CA68E00B1491C /* RestClientConfiguration.swift in Sources */,
+				227C8F16209CA68E00B1491C /* DataResult.swift in Sources */,
+				227C8F27209CA68E00B1491C /* MySegmentsCacheProtocol.swift in Sources */,
+				227C8F06209CA68E00B1491C /* SplitEventsManager.swift in Sources */,
+				227C8F24209CA68E00B1491C /* SplitCacheProtocol.swift in Sources */,
+				227C8F5C209CA68E00B1491C /* AllKeysMatcher.swift in Sources */,
+				227C8F60209CA68E00B1491C /* StartWithMatcher.swift in Sources */,
+				227C8F1E209CA68E00B1491C /* SplitFactoryProtocol.swift in Sources */,
+				227C8F3F209CA68E00B1491C /* BetweenMatcherData.swift in Sources */,
+				227C8F62209CA68F00B1491C /* ImpressionsFileStorage.swift in Sources */,
+				227C8F6B209CA68F00B1491C /* SplitChangeFetcher.swift in Sources */,
+				227C8F66209CA68F00B1491C /* MemoryStorage.swift in Sources */,
+				227C8F72209CA68F00B1491C /* HttpSplitChangeFetcher.swift in Sources */,
+				227C8F5A209CA68E00B1491C /* InSegmentMatcher.swift in Sources */,
+				227C8F63209CA68F00B1491C /* ImpressionsConstants.swift in Sources */,
+				227C8F19209CA68E00B1491C /* RestClientRequestProtocol.swift in Sources */,
+				227C8F4D209CA68E00B1491C /* SplitView.swift in Sources */,
+				227C8F42209CA68E00B1491C /* Status.swift in Sources */,
+				227C8F67209CA68F00B1491C /* FileStorage.swift in Sources */,
+				227C8F31209CA68E00B1491C /* UnaryNumericMatcherData.swift in Sources */,
+				227C8F4B209CA68E00B1491C /* EngineError.swift in Sources */,
+				227C8F3C209CA68E00B1491C /* SplitBase.swift in Sources */,
+				227C8F09209CA68E00B1491C /* SplitClient.swift in Sources */,
+				227C8F53209CA68E00B1491C /* DateTime.swift in Sources */,
+				227C8F45209CA68E00B1491C /* Engine.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		227C8E66209CA64600B1491C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		227C8E67209CA64600B1491C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		227C8E69209CA64600B1491C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3KMD79W249;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Split/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ancestry.Split;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		227C8E6A209CA64600B1491C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 3KMD79W249;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
+				INFOPLIST_FILE = Split/Info.plist;
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Ancestry.Split;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		227C8E5A209CA64600B1491C /* Build configuration list for PBXProject "Split" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227C8E66209CA64600B1491C /* Debug */,
+				227C8E67209CA64600B1491C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		227C8E68209CA64600B1491C /* Build configuration list for PBXNativeTarget "Split" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				227C8E69209CA64600B1491C /* Debug */,
+				227C8E6A209CA64600B1491C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 227C8E57209CA64600B1491C /* Project object */;
+}
